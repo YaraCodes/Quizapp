@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    
+}
+.grid {
+
+    width: 1600px;
+    height: 760px;
+    margin: 0 auto;
+    padding: 10px 50px 50px 50px;
+    border: 2px solid #cbcbcb;
+
+}
+
+.grid h1 {
+    font-family: "Bebas Neue";
+    background-color: #541e1b;
+    font-size: 50px;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px 0px;
+
+}
+.p{
+  font-family: "Bebas Neue";
+}
+
+#score {
+    color: #ffd700;
+    text-align: center;
+    font-size: 30px;
+}
+
+.grid #question {
+  text-align: center;
+    font-family: "Bebas Neue";
+    font-size: 30px;
+    color: #000000;
+}
+
+.buttons {
+  text-align: center;
+    margin-top: 30px;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    background-color: #ff0000;
+    width: 250px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #01BBFF;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color: #01BBFF;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+
+#progress {
+    color: #2b2b2b;
+    font-size: 18px;
+}
