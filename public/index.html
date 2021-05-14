@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!--title-->
+    <title>quizapp</title>
+    <!--tab icon-->
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <!--width on different device-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!--theme-->
+    <meta name="theme-color" content="#000000" />
+  <!--description of website-->
+    <meta name="description"content="General Knwoledge Quiz(India)"/>
+  <!--Css file link-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+    div{
+      background-image: url('C:/Users/Ramdas Vengurlekar/reactApp/quizapp/Images/scene.jpg');
+    }
+  </style>
+  </head>
+  <body>
+    <div class="grid">
+        <div id="quiz">
+            <h1>General Knowledge Quiz(India)</h1>
+            <p id="question">
+            </p>
+
+            <div class="buttons">
+                <button id="btn0"><span id="choice0"></span></button>
+                <button id="btn1"><span id="choice1"></span></button>
+                <button id="btn2"><span id="choice2"></span></button>
+                <button id="btn3"><span id="choice3"></span></button>
+            </div>
+<!--horizontal line-->
+            <hr style="margin-top: 50px">
+            <footer>
+                <p id="progress">Question x of y</p>
+            </footer>
+        </div>
+<!--link javascript-->
+<script src="index.js"></script>
+
+</body>
+</html>
